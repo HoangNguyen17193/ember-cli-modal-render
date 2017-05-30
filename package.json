@@ -1,12 +1,14 @@
 {
   "name": "ember-cli-modal-render",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.2",
+  "description": "Ember addon for render modal dialog to body or anywhere",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember modal render",
+    "render body"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Hoang Nguyen",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -18,6 +20,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
+    "ember-cli-htmlbars": "^1.1.1",
     "ember-cli-babel": "^5.1.7"
   },
   "devDependencies": {
