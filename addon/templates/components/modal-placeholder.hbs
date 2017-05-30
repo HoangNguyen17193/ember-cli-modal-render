@@ -1,0 +1,6 @@
+{{#each modals as |modal|}}
+  {{component modal.componentName
+              model=modal.model
+              closeModal=(action "closeModal")}}
+{{/each}}
+{{yield}}
